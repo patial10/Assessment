@@ -10,5 +10,5 @@ and inside mainpy.py i have written the main code there.
 
 4)now all files will move from folder(2) to folder(3) after every 10 second and then inside database the values of "status" column will update from 0 to 1.
 
-Note: Untitled.ipynb is option jupyter file 
+Note: Untitled.ipynb is optional jupyter file 
 
