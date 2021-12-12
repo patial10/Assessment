@@ -1,14 +1,14 @@
 Steps for Assesment test:--
 
-1)first of all, i created 3 directories(f1,f2 and f3) and a python file (mainpy.py)
+1)first of all, i created 3 directories(Processing,queue and processed) and a python file (mainpy.py)
 and inside mainpy.py i have written the main code there.
 
-2)Inside floder1(f1),file is genrated in every single second and every second file is stored in database with the "status 0" as well.(database has two columns "text1","status")
+2)Inside floder1(Processing),file is genrated in every single second.(database has two columns "text1","status")
 
+3)then after every 5 seconds all the files will move from folder(Processing) to folder(queue)(if the folder queue is empty).
 
-3)then after every 5 seconds all the files will move from folder(f1) to folder(f2).
+4)then all the files will move from folder(queue) to database with status 1.
 
-4)now all files will move from folder(2) to folder(3) after every 10 second and then inside database the values of "status" column will update from 0 to 1.
+5)now all files will move from folder(queue) to folder(processed).
 
-Note: Untitled.ipynb is optional jupyter file 
 
